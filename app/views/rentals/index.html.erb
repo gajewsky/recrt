@@ -1,0 +1,34 @@
+<h1>Listing rentals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Car</th>
+      <th>Customer</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Cost</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rentals.each do |rental| %>
+      <tr>
+        <td><%= rental.car.name %></td>
+        <td><%= rental.customer.name %></td>
+        <td><%= rental.start %></td>
+        <td><%= rental.end %></td>
+        <td><%= ((rental.how_long)*rental.car.cost).to_i  %> zł</td>
+        <td><%= link_to 'Show', rental %></td>
+        <td><%= link_to 'Edit', edit_rental_path(rental) %></td>
+        <td><%= link_to 'Destroy', rental, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Rental', new_rental_path %>

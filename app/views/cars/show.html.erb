@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @car.name %>
+</p>
+
+<p>
+  <strong>Describtion:</strong>
+  <%= @car.describtion %>
+</p>
+
+<p>
+  <strong>Comfort class:</strong>
+  <%= @car.comfort_class %>
+</p>
+
+
+
+<p>
+  <%= image_tag(@car.picture_url, :width => 600) if @car.picture.present? %>
+</p>
+
+
+
+
+
+<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Back', cars_path %>
+
+
+<%= calendar @car.rentals do |event| %>
+
+    <div><%= link_to event.customer.name, event %>
+      rents on <%= event.how_long.to_i %> days</div>
+<% end %>

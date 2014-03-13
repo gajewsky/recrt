@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Car:</strong>
+
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @rental.customer.name %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @rental.start %>
+</p>
+
+<p>
+  <strong>End:</strong>
+  <%= @rental.end %>
+</p>
+
+<p>
+  <strong>Days:</strong>
+  <%= @rental.how_long.to_int %>
+</p>
+<p>
+  <strong>Cost:</strong>
+  <%= ((@rental.how_long)*@rental.car.cost).to_i %> zł
+</p>
+
+
+<%= link_to 'Edit', edit_rental_path(@rental) %> |
+<%= link_to 'Back', rentals_path %>

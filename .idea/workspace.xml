@@ -80,7 +80,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="10" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
+            <state line="40" column="28" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="585" selection-end="585" vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="912">
+            <state line="25" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.49342105" vertical-offset="0" max-vertical-offset="912">
               <folding />
             </state>
           </provider>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/app/views/cars/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rentals/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/rentals/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -742,14 +742,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
+        <state line="40" column="28" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="585" selection-end="585" vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="912">
+        <state line="25" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.49342105" vertical-offset="0" max-vertical-offset="912">
           <folding />
         </state>
       </provider>

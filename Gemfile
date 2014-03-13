@@ -5,10 +5,9 @@ gem 'rails', '4.0.3'
 
 # Use sqlite3 as the database for Active Record
 
-gem 'sqlite3', :group => :development
 
-gem 'pg', group: :production
-gem 'rails_12factor', group: :production
+gem 'sqlite3'
+
 gem 'carrierwave'
 
 gem 'devise'
